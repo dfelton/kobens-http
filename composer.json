@@ -1,5 +1,5 @@
 {
-    "name": "dfelton/kobens-http",
+    "name": "kobens/kobens-http",
     "type": "library",
     "license": "GNU GPLv3",
     "authors": [
@@ -14,6 +14,6 @@
         "psr-4": {
             "Kobens\\Http\\": "src"
         }
-    }
-
+    },
+    "version": "0.0.1"
 }
