@@ -6,9 +6,9 @@ namespace Kobens\Http\Exception\Status\ServerError;
 
 use Kobens\Http\Exception\Status\ServerError;
 
-final class GatewayTimeout extends ServerError
+final class BadGatewayException extends ServerError
 {
-    public function __construct($message = null, int $code = 504, \Exception $previous = null)
+    public function __construct($message = null, int $code = 502, \Exception $previous = null)
     {
         parent::__construct($message, $code, $previous);
     }
