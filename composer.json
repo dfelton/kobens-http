@@ -1,0 +1,19 @@
+{
+    "name": "dfelton/kobens-http",
+    "type": "library",
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "Darren Felton",
+            "email": "darren_felton@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kobens\\Http\\": "src"
+        }
+    }
+
+}
