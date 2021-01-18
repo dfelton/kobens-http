@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 namespace Kobens\Http\Exception\Status\ServerError;
 
-use Kobens\Http\Exception\Status\ServerError;
-
-final class GatewayTimeoutException extends ServerError
+final class GatewayTimeoutException extends \Kobens\Http\Exception\Status\ServerError
 {
     public function __construct($message = null, int $code = 504, \Exception $previous = null)
     {
