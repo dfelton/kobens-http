@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kobens\Http\Exception\Status\ServerError;
+namespace Kobens\Http\Exception\Status\ClientError;
 
-final class BadGatewayException extends \Kobens\Http\Exception\Status\ClientErrorException
+final class TooManyRequests extends \Kobens\Http\Exception\Status\ClientErrorException
 {
     public const STATUS_CODE = 429;
 
